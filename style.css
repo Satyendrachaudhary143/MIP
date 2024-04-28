@@ -1,0 +1,277 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(251, 251, 251);
+
+
+
+    
+        font-family: "Poppins", sans-serif;
+        /* font-weight: 400; */
+        font-style: normal;
+      
+}
+
+body{
+    background-color: rgb(0, 0, 21);
+}
+.header{
+    width: 100%;
+    /* position: fixed; */
+    left: 0%;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   padding: 0 30px;
+   height: 50px;
+   background-color: rgb(14, 14, 84);
+   
+}
+.header h1{
+    font-size: 18px;
+}
+/* header{
+    display: none;
+} */
+
+nav{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    border-bottom: 5px solid rgb(14, 14, 84);
+    padding: 7px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+nav a:hover{
+    border-bottom: 5px solid rgb(243, 23, 59);
+    padding: 7px 0;
+}
+.ic i{
+    font-size: 30px;
+ 
+    display: none;
+  
+}
+#element{
+    color: rgb(170, 2, 240);
+}
+.contaner_home{
+    width: 100%;
+    height: 100vh;
+}
+.left{
+    margin-top: 10%;
+    margin-left: 10%;
+    line-height: 35px;
+    word-spacing: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    float: left;
+    width: 50%;
+    
+}
+.right{
+    margin-top: 10%;
+    margin-right: 3%;
+  
+    float: right;
+    
+    
+}
+
+/* .main_pr{
+    width: 100%;
+       
+       height: 100vh;
+} */
+.contaner_home p{
+    font-size: 12px;
+    line-height: 20px;
+    word-spacing: 0px;
+}
+.leftsession h1 {
+    font-size: 25px;
+    font-weight: 400;
+    font-weight: 600;
+    
+}
+.leftsession h1 span{
+    color: rgb(170, 3, 260);
+    font-weight: 800;
+    font-size: 30px;
+}
+.profile img{
+    border-radius: 100%;
+    /* margin-top: 200px; */
+    float: right;
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 20px 2px aqua;
+
+}
+.profile{
+    float: right;
+
+}
+.icon{
+    margin-top: 15px;
+}
+button{
+
+}
+.contaner_home button{
+    background-color: aqua;
+    color: black;
+    height: 30px;
+    width: 100px;
+    font-weight: 700;
+    margin-top: 10px;
+    border-radius: 15px;
+ 
+}
+.abt{
+    width: 100%;
+    height: 100vh;
+    padding-right: 15%;
+    padding-left: 15%;
+    
+}
+.abt div{
+    text-align: center;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.abt img{
+    width: 300px;
+    height: 300px;
+    float: left;
+   margin-right: 100px;
+   border: 2px solid white;
+   box-shadow: 2px 2px 20px 2px rgb(10, 128, 231);
+   border-radius: 50%;
+}
+.abt h1 span{
+    color:rgb(170, 2, 240) ;
+    line-height: 20px;
+}
+.abt h1{
+    margin-bottom: 5px;
+}
+.abt h4{
+    margin-bottom: 15px;
+}
+.abt button{
+    color: #000;
+    background-color: aqua;
+    font-weight: 700;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.services_s{
+    display: flex;
+    justify-content: center;
+}
+.web_dev,.design,.app{
+width: 300px;
+/* height: 300px; */
+background-color: rgb(46, 46, 103);
+margin-left: 10px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+padding: 0% 10px;
+align-items: center;
+margin-top: 50px;
+padding-bottom: 10px;
+/* text-align: justify; */
+
+}
+.app:hover{
+    border: 2px solid rgb(0, 51, 237);
+}
+.design:hover{
+    border: 2px solid blue;
+}
+.web_dev:hover{
+    border: 2px solid blue;
+}
+.ab{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.services_s button{
+    color: #000;
+    background-color: aqua;
+    font-weight: 700;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.services_s p{
+margin-top: 5px;
+}
+.service h1{
+    margin-left: 100px;
+    color: aqua;
+
+}
+.project{
+    text-align: center;
+    margin-top: 100px;
+    height: 50vh;
+ 
+    width: 100%;
+}
+.contact_us{
+    text-align: center;
+}
+.contact_us input{
+    width: 25%;
+    height: 40px;
+   
+    background-color: rgb(46, 46, 103);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+    padding-left: 5px;
+}
+#message{
+    min-width: 50.25%;
+    min-height: 20%;
+    resize: none;
+    padding: 15px;
+    margin-top: 5px;
+  
+    background-color: rgb(46, 46, 103);
+    outline: none;
+    border: none;
+    font-size: 18px;
+
+}
+.contact_us span{
+    color: rgb(5, 5, 187);
+}
+#submit{
+    border-radius: 15px;
+    cursor: pointer;
+}
+.contact_us div h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
